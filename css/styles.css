@@ -22,3 +22,68 @@ input[type="search"]::-webkit-search-results-decoration {
     margin: 0 auto;
 }
 
+._button {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+
+.header {
+    width: 100%;
+    background: linear-gradient(to right, #0c1b33, #0c1a34, #0c1931, #0d1522, #0f1013, #0f0f11);
+}
+
+.header__container {
+    padding: 52px 0 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.header__menu > .header__stock {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+.header__element-menu {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    color:  #FFFFFF;
+    cursor: pointer;
+}
+
+.header__sub-menu {
+    display: flex;
+    gap: 4px;
+    align-items: flex-end;
+}
+
+.header__sub-menu > button {
+    background-color:  #0c1931;
+}
+
+.header__control-buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__control-buttons > button {
+    background-color: #0f0f11;
+    padding: 0;
+}
+
+
+
+
+
+
+
