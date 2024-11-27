@@ -151,6 +151,18 @@ input[type="search"]::-webkit-search-results-decoration {
     .header__control-buttons {
         gap: 25px;
     }
+
+    .header__control-button_active:nth-child(1) {
+        margin-right: -49px;
+    }
+    
+    .header__control-button_active:nth-child(3) {
+        margin-right: -25px;
+    }
+    
+    .header__control-button_active:nth-child(5) {
+        margin-right: -25px;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
@@ -241,6 +253,14 @@ input[type="search"]::-webkit-search-results-decoration {
 
     .header__control-buttons > button {
         display: none;
+    }
+
+    .header__control-button_active:nth-child(3) {
+        margin-right: -36px;
+    }
+    
+    .header__control-button_active:nth-child(5) {
+        margin-right: -36px;
     }
 }
 
