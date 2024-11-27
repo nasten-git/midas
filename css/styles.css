@@ -18,15 +18,42 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .container {
-    width: 1499.97px;
+    width: 1500px;
     margin: 0 auto;
 }
 
-._button {
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .container {
+        width: 94%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .container {
+        width: 94%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 92%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 91%;
+    }
+}
+
+
+._form-elem {
     cursor: pointer;
     outline: none;
     border: 0;
 }
+
+    /* Main page of the cite. First. */
 
 .header {
     width: 100%;
@@ -56,12 +83,13 @@ input[type="search"]::-webkit-search-results-decoration {
     gap: 2px;
 }
 
-.header__element-menu {
+.header__menu-link {
     font-size: 12px;
     font-weight: 500;
     line-height: 14.63px;
     color:  #FFFFFF;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .header__sub-menu {
@@ -85,15 +113,37 @@ input[type="search"]::-webkit-search-results-decoration {
     padding: 0;
 }
 
-@media (min-width: 1499.97px) {
-
+.header__control-buttons > a {
+    cursor: pointer;
 }
 
-@media (min-width: 1200px) and (max-width: 1499.97px) {
-    .container {
-        width: 98%;
-    }
+.header__control-button_active:hover {
+    display: none;
+}
 
+.header__control-button_active:nth-child(1) {
+    margin-right: -64px;
+}
+
+.header__control-button_active:nth-child(3) {
+    margin-right: -40px;
+}
+
+.header__control-button_active:nth-child(5) {
+    margin-right: -40px;
+}
+
+.header__control-button_active {
+    z-index: 10;
+}
+
+
+.header__control-button_hover:hover {
+    display: block;
+}
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
     .header__menu {
         gap: 30px;
     }
@@ -103,13 +153,9 @@ input[type="search"]::-webkit-search-results-decoration {
     }
 }
 
-@media (min-width: 1000px) and (max-width: 1200px) {
-    .container {
-        width: 98%;
-    }
-
+@media (min-width: 1024px) and (max-width: 1200px) {
     .header__container {
-        padding: 52px 21px 38.67px;
+        padding: 52px 0 39px;
     }
         
     .header__menu {
@@ -119,6 +165,7 @@ input[type="search"]::-webkit-search-results-decoration {
     .header__burger-menu {
         display: flex;
         align-items: center;
+        width: 50%;
     }
 
     .header__burger-menu > button {
@@ -130,16 +177,13 @@ input[type="search"]::-webkit-search-results-decoration {
         font-weight: 500;
         line-height: 14.63px;
         color:  #FFFFFF;
+        text-transform: uppercase;
     }
 }
 
-@media (min-width: 600px) and (max-width: 1000px) {
-    .container {
-        width: 98%;
-    }
-
+@media (min-width: 768px) and (max-width: 1024px) {
     .header__container {
-        padding: 52px 21px 78px;
+        padding: 52px 0 39px;
     }
     
     .header__menu {
@@ -149,6 +193,7 @@ input[type="search"]::-webkit-search-results-decoration {
     .header__burger-menu {
         display: flex;
         align-items: center;
+        width: 40%;
     }
 
     .header__burger-menu > button {
@@ -160,16 +205,13 @@ input[type="search"]::-webkit-search-results-decoration {
         font-weight: 500;
         line-height: 14.63px;
         color:  #FFFFFF;
+        text-transform: uppercase;
     }
 }
 
-@media (max-width: 600px) {
-    .container {
-        width: 98%;
-    }
-
+@media (max-width: 768px) {
     .header__container {
-        padding: 25px 15px 58px;
+        padding: 25px 0 29px;
     }
 
     .header__logo > svg {
@@ -197,7 +239,7 @@ input[type="search"]::-webkit-search-results-decoration {
         gap: 36px;
     }
 
-    .header__control-buttons > button:first-child {
+    .header__control-buttons > button {
         display: none;
     }
 }
