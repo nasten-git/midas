@@ -178,7 +178,8 @@
                     </nav>
                 </div> 
             </div>    
-            <nav class="menu-phone">
+            <nav class="menu-phone menu-phone_closed"> 
+                <!-- menu-phone_closed -->
                 <div class="menu-phone__form">
                     <input class="_form-elem" type="search" name="search" placeholder="Поиск блюда">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -186,54 +187,76 @@
                         <path d="M15.4475 13.9319L24 22.4844L22.4844 24L13.9319 15.4475L15.4475 13.9319Z" fill="black"/>
                     </svg>    
                 </div>
-                <div class="menu-phone__stock">
-                    <img src="images/big-fire.png"  alt="big fire" width="30" height="30">
-                    <a class="menu-phone__link">Акции</a>     
-                </div>
-                <div class="menu-phone__option menu-phone__option_bordered">
-                    <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.0086 10L5.51006 2.09846L7.50149 -6.55541e-07L15 7.90153L13.0086 10Z" fill="#999999"/>
-                        <path d="M1.83454e-07 7.90153L7.49851 2.97874e-07L9.48995 2.09846L1.99143 10L1.83454e-07 7.90153Z" fill="#999999"/>
-                    </svg>
-                    <span class="menu-phone__description">Горячее</span>
-                    <span class="menu-phone__quantity">3 шт</span>
-                </div>    
-                <div class="menu-phone__elements">
+                <div class="menu-phone__line">
                     <div class="menu-phone__element">
-                        <img src="images/hot-dishes.png" alt="hot dishes" width="39" height="38">
-                        <a class="menu-phone__link">Горячие блюда</a>
+                        <img src="images/big-fire.png"  alt="big fire" width="30" height="30">
+                        <a class="menu-phone__link">Акции</a>     
                     </div>
+                </div>   
+                <div class="menu-phone__line menu-phone__line_bordered"> 
+                    <div class="menu-phone__block-menu">
+                        <div class="menu-phone__title">
+                            <svg class="menu-phone__arrow_white" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.99143 8.05416e-07L9.48995 7.90154L7.49851 10L0 2.09847L1.99143 8.05416e-07Z" fill="white"/>
+                                <path d="M15 2.09846L7.50149 10L5.51006 7.90153L13.0086 0L15 2.09846Z" fill="white"/>
+                            </svg>
+                            <svg class="menu-phone__arrow_grey" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.0086 10L5.51006 2.09846L7.50149 -6.55541e-07L15 7.90153L13.0086 10Z" fill="#999999"/>
+                                <path d="M1.83454e-07 7.90153L7.49851 2.97874e-07L9.48995 2.09846L1.99143 10L1.83454e-07 7.90153Z" fill="#999999"/>
+                            </svg>
+                            <span class="menu-phone__description">Горячее</span>
+                            <span class="menu-phone__quantity">3 шт</span>
+                        </div> 
+                        <div class="menu-phone__elements">
+                            <div class="menu-phone__element">
+                                <img src="images/hot-dishes.png" alt="hot dishes" width="39" height="38">
+                                <a class="menu-phone__link">Горячие блюда</a>
+                            </div>
+                            <div class="menu-phone__element"> 
+                                <img src="images/soups.png" alt="soups" width="39" height="38">
+                                <a class="menu-phone__link">Супы</a>
+                            </div>
+                            <div class="menu-phone__element">
+                                <img src="images/khinkali.png" alt="khinkali" width="39" height="38">
+                                <a class="menu-phone__link">Хинкали</a>
+                            </div>  
+                        </div> 
+                    </div>        
+                </div>  
+                <div class="menu-phone__line menu-phone__line_bordered"> 
+                    <div class="menu-phone__title">
+                        <svg class="menu-phone__arrow_white" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.99143 8.05416e-07L9.48995 7.90154L7.49851 10L0 2.09847L1.99143 8.05416e-07Z" fill="white"/>
+                            <path d="M15 2.09846L7.50149 10L5.51006 7.90153L13.0086 0L15 2.09846Z" fill="white"/>
+                        </svg>
+                        <svg class="menu-phone__arrow_grey" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.0086 10L5.51006 2.09846L7.50149 -6.55541e-07L15 7.90153L13.0086 10Z" fill="#999999"/>
+                            <path d="M1.83454e-07 7.90153L7.49851 2.97874e-07L9.48995 2.09846L1.99143 10L1.83454e-07 7.90153Z" fill="#999999"/>
+                        </svg>           
+                        <span class="menu-phone__description">Холодное</span>
+                        <span class="menu-phone__quantity">
+                            3 шт
+                        </span>
+                    </div>
+                </div>    
+                <div class="menu-phone__line menu-phone__line_bordered">
                     <div class="menu-phone__element"> 
-                        <img src="images/soups.png" alt="soups" width="39" height="38">
-                        <a class="menu-phone__link">Супы</a>
+                        <img src="images/bakery.png" alt="bakery" width="39" height="38">
+                        <a class="menu-phone__link">Свежая выпечка</a>
                     </div>
-                    <div class="menu-phone__element">
-                        <img src="images/khinkali.png" alt="khinkali" width="39" height="38">
-                        <a class="menu-phone__link">Хинкали</a>
-                    </div>   
+                </div>
+                <div class="menu-phone__line menu-phone__line_bordered">    
+                    <div class="menu-phone__element"> 
+                        <img src="images/desserts.png" alt="desserts" width="39" height="38"> 
+                        <a class="menu-phone__link">Десерты</a>
+                    </div>
+                </div>
+                <div class="menu-phone__line menu-phone__line_bordered">    
+                    <div class="menu-phone__element"> 
+                        <img src="images/drinks.png" alt="drinks" width="39" height="38"> 
+                        <a class="menu-phone__link">Напитки</a>
+                    </div>
                 </div>    
-                <div class="menu-phone__option menu-phone__option_bordered">
-                    <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.99143 8.05416e-07L9.48995 7.90154L7.49851 10L0 2.09847L1.99143 8.05416e-07Z" fill="white"/>
-                        <path d="M15 2.09846L7.50149 10L5.51006 7.90153L13.0086 0L15 2.09846Z" fill="white"/>
-                    </svg>   
-                    <span class="menu-phone__description">Холодное</span>
-                    <span class="menu-phone__quantity">
-                        3 шт
-                    </span>
-                </div>
-                <div class="menu-phone__element menu-phone__option_bordered"> 
-                    <img src="images/bakery.png" alt="bakery" width="39" height="38">
-                    <a class="menu-phone__link">Свежая выпечка</a>
-                </div>
-                <div class="menu-phone__element menu-phone__option_bordered"> 
-                    <img src="images/desserts.png" alt="desserts" width="39" height="38"> 
-                    <a class="menu-phone__link">Десерты</a>
-                </div>
-                <div class="menu-phone__element menu-phone__option_bordered"> 
-                    <img src="images/drinks.png" alt="drinks" width="39" height="38"> 
-                    <a class="menu-phone__link">Напитки</a>
-                </div>
             </nav>
         </div> 
     </header>

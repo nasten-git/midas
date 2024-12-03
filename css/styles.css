@@ -497,7 +497,7 @@ input[type="search"]::-webkit-search-results-decoration {
         padding: 17px 15px 49px;
     }
 
-    .menu-phone__option_bordered {
+    .menu-phone__line_bordered {
         border-top: 1px solid #3D3D3D;
         padding-top: 16px;
         margin-top: 16px;
@@ -516,12 +516,19 @@ input[type="search"]::-webkit-search-results-decoration {
         cursor: pointer;
     }
 
-    .menu-phone__stock {
-        margin-top: 23px;
+    .menu-phone__line {
         display: flex;
         align-items: center;
-        gap: 25px;
         justify-content: center;
+    }
+
+    .menu-phone__line:nth-child(2) {
+        margin-top: 23px;
+    }
+
+    .menu-phone__line:last-child {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #3D3D3D;
     }
 
     .menu-phone__link:hover {
@@ -533,7 +540,6 @@ input[type="search"]::-webkit-search-results-decoration {
         font-weight: 500;
         line-height: 17.07px;
         color: #FFFFFF;
-        width: 123px;
         cursor: pointer;
         transition: color .2s ease-in;
     }
@@ -545,45 +551,59 @@ input[type="search"]::-webkit-search-results-decoration {
         margin-top: 25px;
     }
 
+    .menu-phone_closed .menu-phone__elements {
+        display: none;
+    }
+
     .menu-phone__element {
         display: flex;
         align-items: center;
-        justify-content: center;
         gap: 25px;
+        width: 190px;
     }
 
-    .menu-phone > .menu-phone__element:last-child {
-        padding-bottom: 16px;
-        border-bottom: 1px solid #3D3D3D;
-    }
-
-    .menu-phone__option {
+    .menu-phone__title {
         display: flex;
         align-items: center;
-        justify-content: center;
+        width: 190px;
         gap: 30px;
         cursor: pointer;
     }
 
-    .menu-phone__description{
+    .menu-phone__description {
         font-size: 14px;
         font-weight: 500;
         line-height: 17.07px;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: #999999;
     }
 
+    .menu-phone_closed .menu-phone__description {
+        color: #FFFFFF;
+    }
 
     .menu-phone__quantity {
         font-size: 10px;
         font-weight: 500;
         line-height: 12.19px;
         color: #FBD13E;
-
     }
 
+    .menu-phone__arrow_white {
+        display: none;
+    }
 
+    .menu-phone__arrow_grey {
+        display: block;
+    }
 
+    .menu-phone_closed .menu-phone__arrow_white {
+        display: block;
+    }
+
+    .menu-phone_closed .menu-phone__arrow_grey {
+        display: none;
+    }
 }
 
 
