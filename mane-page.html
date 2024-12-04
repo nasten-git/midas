@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header _opened">
+    <header class="header">
+        <!-- _opened add class -->
         <div class="container header__container">
             <div class="header__logo">
                 <svg width="169" height="30" viewBox="0 0 169 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,7 +66,7 @@
 
             <div class="header__control-buttons">
                 <div> 
-                    <!-- header-menu_opened class -->
+                    <!-- header-menu_opened add class -->
                     <div class="header__search-form"> 
                         <div class="header__search-form_active">
                             <input class="_form-elem" type="search" name="search" placeholder="Поиск блюда">
@@ -179,7 +180,7 @@
                 </div> 
             </div>    
             <nav class="menu-phone menu-phone_closed"> 
-                <!-- menu-phone_closed -->
+                <!-- menu-phone_closed add class-->
                 <div class="menu-phone__form">
                     <input class="_form-elem" type="search" name="search" placeholder="Поиск блюда">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -260,5 +261,47 @@
             </nav>
         </div> 
     </header>
+    <section class="main">
+        <div class="container main__container">
+            <div class="main__information">
+                <span class="main__description">Доставка готовой еды из фермерских продуктов!</span>
+                <div class="main__dot-block">
+                    <img src="images/dot-container 1.png" alt="dot-block" width="154" height="184">
+                </div>
+                <div class="main__contacts">
+                    <a class="main__number">+7 (499) 841-67-29</a>
+                    <a class="main__email">delivery@midas.rest</a>
+                </div>
+            </div>    
+            <div class="main__offer">
+                <div class="main__dot-block">
+                    <img src="images/dot-container 1.png" alt="dot-block" width="154" height="184">
+                </div>
+                <div class="main__offer-container">
+                    <div class="main__offer-description">
+                        <span class="main__title">Стейк из лосося с овощами</span>
+                        <div class="main__quantity">
+                            <span>250 г</span>
+                        </div>
+                        <span class="main__specification">Нежный стейк дикого лосося, пропитанный соком и ароматом слегка обжаренных фермерских овощей</span>
+                        <div class="main__sum">
+                            <span class="main__price">1 200 ₽</span>
+                            <button class="button-basket _form-elem">
+                                <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
+                                    <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
+                                    <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
+                                    <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black"/>
+                                </svg>      
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__dot-block_big">
+                    <img src="images/dot container 2.png" alt="dot-block" width="270" height="364">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>    
