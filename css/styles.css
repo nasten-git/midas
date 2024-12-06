@@ -56,7 +56,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
     /* Main page of the cite. First. */
 .header__container {
-    padding: 52px 0 44px;
+    padding: 52px 0 22px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -333,7 +333,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @media (min-width: 1024px) and (max-width: 1200px) {
     .header__container {
-        padding: 52px 0 39px;
+        padding: 52px 0 20px;
     }
         
     .header__menu {
@@ -614,6 +614,7 @@ input[type="search"]::-webkit-search-results-decoration {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 22px 0 190px;
 }
 
 .main__information {
@@ -808,6 +809,7 @@ input[type="search"]::-webkit-search-results-decoration {
 @media (min-width: 1024px) and (max-width: 1200px) {
     .main__container {
         align-items: flex-start;
+        padding: 20px 0 60px;
     }
 
     .main__offer {
@@ -840,7 +842,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .main__container {
-        padding-top: 39px;
+        padding: 39px 0 190px;
         flex-direction: column;
         gap: 66px;
         align-items: stretch;
@@ -896,7 +898,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @media (max-width: 768px) {
     .main__container {
-        padding-top: 29px;
+        padding: 29px 0 33px;
     }
 
     .main__dot-block {
