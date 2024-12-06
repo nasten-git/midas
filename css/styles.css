@@ -767,6 +767,22 @@ input[type="search"]::-webkit-search-results-decoration {
     align-items: center;
 }
 
+.button-basket_click {
+    display: none;
+}
+
+._button-basket_click.button-basket {
+    background-color: #000000;
+}
+
+._button-basket_click .button-basket_click {
+    display: block;
+}
+
+._button-basket_click .button-basket_active {
+    display: none;
+}
+
 
 @media (min-width: 1200px) and (max-width: 1500px) {
     .main__dot-block > img {
@@ -808,7 +824,7 @@ input[type="search"]::-webkit-search-results-decoration {
     }
 
     .main__offer-container {
-        bottom: 33px;
+        bottom: -33px;
         left: 51px;
     }
 
