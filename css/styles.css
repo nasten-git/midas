@@ -217,11 +217,6 @@ input[type="search"]::-webkit-search-results-decoration {
     display: none;
     z-index: 1;
 }
-
-.header_opened .menu-overlay {
-    display: block;
-}
-
  .menu-phone {
     display: none;
 } 
@@ -372,6 +367,10 @@ input[type="search"]::-webkit-search-results-decoration {
         width: 40%;
     }
 
+    .header_opened .menu-overlay {
+        display: block;
+    }
+
     .header_opened .menu-tablet {
         display: block;
     }
@@ -414,6 +413,10 @@ input[type="search"]::-webkit-search-results-decoration {
     }
 
     .header_opened .header__add-button_container {
+        display: block;
+    }
+
+    .header_opened .menu-overlay {
         display: block;
     }
 
@@ -484,6 +487,10 @@ input[type="search"]::-webkit-search-results-decoration {
 
     .header__control-buttons > button {
         display: none;
+    }
+
+    .header_opened .menu-overlay {
+        display: block;
     }
 
     .menu-overlay {
