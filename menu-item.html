@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>MIDAS</title>
+    <title>HOT DISHES</title>
 </head>
 <body>
     <header class="header">
@@ -262,204 +262,27 @@
             </nav>
         </div> 
     </header>
-    <section class="main">
-        <div class="container main__container">
-            <div class="main__information">
-                <span class="main__description">Доставка готовой еды из фермерских продуктов!</span>
-                <div class="main__dot-block">
-                    <img src="images/dot-container-1.png" alt="dot-block" width="154" height="184">
-                </div>
-                <div class="main__contacts">
-                    <a class="main__number" href="tel:+74998416729">+7 (499) 841-67-29</a>
-                    <a class="main__email" href="mailto:delivery@midas.rest&body=Задайте нам вопрос?subject=вопрос">delivery@midas.rest</a>
-                </div>
-            </div>    
-            <div class="main__offer">
-                <div class="main__dot-block">
-                    <img src="images/dot-container-1.png" alt="dot-block" width="154" height="184">
-                </div>
-                <div class="main__offer-container">
-                    <div class="main__offer-description">
-                        <span class="main__title">Стейк из лосося с овощами</span>
-                        <div class="main__quantity">
-                            <span>250 г</span>
-                        </div>
-                        <span class="main__specification">Нежный стейк дикого лосося, пропитанный соком и ароматом слегка обжаренных фермерских овощей</span>
-                        <div class="main__sum">
-                            <span class="main__price">1 200 ₽</span>
-                            <button class="button-basket _form-elem">
-                                <!-- _button-basket_click add class -->
-                                <svg class="button-basket_active" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
-                                    <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
-                                    <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
-                                    <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black"/>
-                                </svg> 
-                                <svg class="button-basket_click" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="#FBD13E"/>
-                                    <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="#FBD13E"/>
-                                    <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="#FBD13E"/>
-                                    <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="#FBD13E"/>
-                                </svg>       
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="main__dot-block_big">
-                    <img src="images/dot-container-2.png" alt="dot-block" width="270" height="364">
-                </div>
+    <section class="menu-item">
+        <div class="container menu-item__container">
+            <div class="menu-item__name">
+                <span class="menu-item__title">Горячие блюда</span>
+                <nav class="menu-item__breadcrumbs">
+                    <a class="menu-item__breadcrumb-element">Главная</a>
+                    <span class="menu-item__breadcrumb-separator">/</span>
+                    <a class="menu-item__breadcrumb-element">Горячие блюда</a>
+                </nav>
             </div>
-        </div>
-    </section>
-
-    <section class="menu-list">
-        <div class="container menu-list__container">
-            <h1>Популярные блюда</h1>
-            <div class="menu-list__catalog">
-                <div class="menu-list__product-card">
-                    <img src="images/1-product-card.png" alt="Хачапури по-аджарски" width="233" height="233"> 
-                    <span class="menu-list__title">Хачапури по-аджарски</span>
-                    <div class="menu-list__quantity">
-                        <span>430 г</span>
-                    </div>
-                    <span class="menu-list__description">Хачапури "Лодочка" с начинкой из расплавленного сыра сулугуни, яйца и масла.</span>
-                    <div class="menu-list__sum">
-                        <span class="menu-list__new-price">470 ₽</span>
-                        <button class="button-basket _form-elem">
-                            <!-- _button-basket_click add class -->
-                            <svg class="button-basket_active" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black"/>
-                            </svg> 
-                            <svg class="button-basket_click" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="#FBD13E"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="#FBD13E"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="#FBD13E"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="#FBD13E"/>
-                            </svg>       
-                        </button>
-                    </div>
-                </div>
-
-                <div class="menu-list__product-card">
-                    <img src="images/2-product-card.png" alt="Хинкали традиционные (6шт)" width="233" height="233"> 
-                    <span class="menu-list__title">Хинкали традиционные (6шт)</span>
-                    <div class="menu-list__quantity">
-                        <span>350 г</span>
-                    </div>
-                    <span class="menu-list__description">Пряные хинкали с начинкой из ароматной баранины со специями.</span>
-                    <div class="menu-list__sum">
-                        <div class="menu-list__price">
-                            <span class="menu-list__old-price">620 ₽</span>
-                            <span class="menu-list__new-price">495 ₽</span>
-                        </div>
-                        <button class="button-basket _form-elem">
-                            <!-- _button-basket_click add class -->
-                            <svg class="button-basket_active" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black"/>
-                            </svg> 
-                            <svg class="button-basket_click" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="#FBD13E"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="#FBD13E"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="#FBD13E"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="#FBD13E"/>
-                            </svg>       
-                        </button>
-                    </div>
-                </div>
-
-                <div class="menu-list__product-card">
-                    <img src="images/3-product-card.png" alt="Хинкали жаренные (6шт)" width="233" height="233"> 
-                    <span class="menu-list__title">Хинкали жаренные (6шт)</span>
-                    <div class="menu-list__quantity">
-                        <span>350 г</span>
-                    </div>
-                    <span class="menu-list__description">Пряные хинкали с начинкой из ароматной баранины со специями.</span>
-                    <div class="menu-list__sum">
-                        <div class="menu-list__price">
-                            <span class="menu-list__old-price">650 ₽</span>
-                            <span class="menu-list__new-price">520 ₽</span>
-                        </div>
-                        <button class="button-basket _form-elem">
-                            <!-- _button-basket_click add class -->
-                            <svg class="button-basket_active" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black"/>
-                            </svg> 
-                            <svg class="button-basket_click" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="#FBD13E"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="#FBD13E"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="#FBD13E"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="#FBD13E"/>
-                            </svg>       
-                        </button>
-                    </div>
-                </div>
-
-                <div class="menu-list__product-card">
-                    <img src="images/4-product-card.png" alt="Ланч низкокалорийный" width="233" height="233"> 
-                    <span class="menu-list__title">Ланч низкокалорийный</span>
-                    <div class="menu-list__quantity">
-                        <span>450 г</span>
-                    </div>
-                    <span class="menu-list__description">Греческий йогурт с ягодами, 3 хинкали традиционных, салат цезарь, пирожки с уткой, морс</span>
-                    <div class="menu-list__sum">
-                        <div class="menu-list__price">
-                            <span class="menu-list__old-price">1 435 ₽</span>
-                            <span class="menu-list__new-price">1 148 ₽</span>
-                        </div>
-                        <button class="button-basket _form-elem">
-                            <!-- _button-basket_click add class -->
-                            <svg class="button-basket_active" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black"/>
-                            </svg> 
-                            <svg class="button-basket_click" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="#FBD13E"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="#FBD13E"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="#FBD13E"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="#FBD13E"/>
-                            </svg>       
-                        </button>
-                    </div>
-                </div>
-
-                <div class="menu-list__product-card">
-                    <img src="images/5-product-card.png" alt="Хачапури по-мегрельски" width="233" height="233"> 
-                    <span class="menu-list__title">Хачапури по-мегрельски</span>
-                    <div class="menu-list__quantity">
-                        <span>430 г</span>
-                    </div>
-                    <span class="menu-list__description">Невероятно ароматная лепёшка с сыром сулугуни внутри и снаружи</span>
-                    <div class="menu-list__sum">
-                        <span class="menu-list__new-price">490 ₽</span>
-                        <button class="button-basket _form-elem">
-                            <!-- _button-basket_click add class -->
-                            <svg class="button-basket_active" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black"/>
-                            </svg> 
-                            <svg class="button-basket_click" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="#FBD13E"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="#FBD13E"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="#FBD13E"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="#FBD13E"/>
-                            </svg>       
-                        </button>
-                    </div>
-                </div>
-
+            <div class="menu-item__filters">
+                <span>Сортировать</span>
+                <button class="menu-item__type-of-filters _form-elem">
+                    <span>По возрастанию цены</span>
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.19884 4.6013e-07L5.71295 4.51411L4.51411 5.71295L0 1.19884L1.19884 4.6013e-07Z" fill="white"/>
+                        <path d="M9.03 1.19884L4.51589 5.71295L3.31705 4.51411L7.83116 0L9.03 1.19884Z" fill="white"/>
+                    </svg>   
+                </button>
+            </div>
+            <div class="menu-item__catalog">
                 <div class="menu-list__product-card">
                     <img src="images/6-product-card.png" alt="Котлета с картофелем по-деревенски" width="233" height="233"> 
                     <span class="menu-list__title">Котлета с картофелем по-деревенски</span>
@@ -478,40 +301,9 @@
                         </button>
                     </div>
                 </div>
-
                 <div class="menu-list__product-card">
-                    <img src="images/7-product-card.png" alt="Хинкали традиционные (6шт)" width="233" height="233"> 
-                    <span class="menu-list__title">Хинкали традиционные (6шт)</span>
-                    <div class="menu-list__quantity">
-                        <span>350 г</span>
-                    </div>
-                    <span class="menu-list__description">Пряные хинкали с начинкой из ароматной баранины со специями.</span>
-                    <div class="menu-list__sum">
-                        <div class="menu-list__price">
-                            <span class="menu-list__old-price">620 ₽</span>
-                            <span class="menu-list__new-price">495 ₽</span>
-                        </div>
-                        <button class="button-basket _form-elem">
-                            <!-- _button-basket_click add class -->
-                            <svg class="button-basket_active" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black"/>
-                            </svg> 
-                            <svg class="button-basket_click" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="#FBD13E"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="#FBD13E"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="#FBD13E"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="#FBD13E"/>
-                            </svg>       
-                        </button>
-                    </div>
-                </div>
-
-                <div class="menu-list__product-card">
-                    <img src="images/8-product-card.png" alt="Хачапури по-мегрельски" width="233" height="233"> 
-                    <span class="menu-list__title">Хачапури по-мегрельски</span>
+                    <img src="images/(2)-product-card.png" alt="Оджахури из телятины" width="233" height="233"> 
+                    <span class="menu-list__title">Оджахури из телятины</span>
                     <div class="menu-list__quantity">
                         <span>430 г</span>
                     </div>
@@ -535,41 +327,13 @@
                         </button>
                     </div>
                 </div>
-
                 <div class="menu-list__product-card">
-                    <img src="images/9-product-card.png" alt="Хачапури по-аджарски" width="233" height="233"> 
-                    <span class="menu-list__title">Хачапури по-аджарски</span>
-                    <div class="menu-list__quantity">
-                        <span>430 г</span>
-                    </div>
-                    <span class="menu-list__description">Хачапури "Лодочка" с начинкой из расплавленного сыра сулугуни, яйца и масла.</span>
-                    <div class="menu-list__sum">
-                        <span class="menu-list__new-price">470 ₽</span>
-                        <button class="button-basket _form-elem">
-                            <!-- _button-basket_click add class -->
-                            <svg class="button-basket_active" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black"/>
-                            </svg> 
-                            <svg class="button-basket_click" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="#FBD13E"/>
-                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="#FBD13E"/>
-                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="#FBD13E"/>
-                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="#FBD13E"/>
-                            </svg>       
-                        </button>
-                    </div>
-                </div>
-
-                <div class="menu-list__product-card">
-                    <img src="images/10-product-card.png" alt="Котлета с картофелем по-деревенски" width="233" height="233"> 
-                    <span class="menu-list__title">Котлета с картофелем по-деревенски</span>
+                    <img src="images/(3)-product-card.png" alt="Долма" width="233" height="233"> 
+                    <span class="menu-list__title">Долма</span>
                     <div class="menu-list__quantity">
                         <span>350 г</span>
                     </div>
-                    <span class="menu-list__description">По семейному рецепту: нежнейшее рубленное мясо с экологически чистыми ферме...</span>
+                    <span class="menu-list__description">Невероятно ароматная начинка из рубленого мяса и свежей зелени, завернутая в виноградные листья, ...</span>
                     <div class="menu-list__sum">
                         <div class="menu-list__price">
                             <span class="menu-list__first-price">410 ₽ –</span>
@@ -577,23 +341,19 @@
                         </div>
                         <button class="button-quantity _form-elem">
                             <!-- _button-quantity_click add class -->
-                            <span>3 вида</span>
+                            <span>2 вида</span>
                         </button>
                     </div>
                 </div>
-
                 <div class="menu-list__product-card">
-                    <img src="images/11-product-card.png" alt="Хинкали жаренные (6шт)" width="233" height="233"> 
-                    <span class="menu-list__title">Хинкали жаренные (6шт)</span>
+                    <img src="images/(4)-product-card.png" alt="Чихохбили" width="233" height="233"> 
+                    <span class="menu-list__title">Чихохбили</span>
                     <div class="menu-list__quantity">
                         <span>350 г</span>
                     </div>
-                    <span class="menu-list__description">Пряные хинкали с начинкой из ароматной баранины со специями.</span>
+                    <span class="menu-list__description">Невероятно ароматная начинка из рубленого мяса и свежей зелени, завернутая в виноградные листья, ...</span>
                     <div class="menu-list__sum">
-                        <div class="menu-list__price">
-                            <span class="menu-list__old-price">650 ₽</span>
-                            <span class="menu-list__new-price">520 ₽</span>
-                        </div>
+                        <span class="menu-list__new-price">490 ₽</span>
                         <button class="button-basket _form-elem">
                             <!-- _button-basket_click add class -->
                             <svg class="button-basket_active" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -611,19 +371,15 @@
                         </button>
                     </div>
                 </div>
-
                 <div class="menu-list__product-card">
-                    <img src="images/12-product-card.png" alt="Ланч низкокалорийный" width="233" height="233"> 
-                    <span class="menu-list__title">Ланч низкокалорийный</span>
+                    <img src="images/(5)-product-card.png" alt="Лобио по-имеретински" width="233" height="233"> 
+                    <span class="menu-list__title">Лобио по-имеретински</span>
                     <div class="menu-list__quantity">
-                        <span>450 г</span>
+                        <span>430 г</span>
                     </div>
-                    <span class="menu-list__description">Греческий йогурт с ягодами, 3 хинкали традиционных, салат цезарь, пирожки с уткой, морс</span>
+                    <span class="menu-list__description">Невероятно ароматная лепёшка с сыром сулугуни внутри и снаружи</span>
                     <div class="menu-list__sum">
-                        <div class="menu-list__price">
-                            <span class="menu-list__old-price">1 435 ₽</span>
-                            <span class="menu-list__new-price">1 148 ₽</span>
-                        </div>
+                        <span class="menu-list__new-price">490 ₽</span>
                         <button class="button-basket _form-elem">
                             <!-- _button-basket_click add class -->
                             <svg class="button-basket_active" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -641,85 +397,30 @@
                         </button>
                     </div>
                 </div>
-            </div>
-            <div class="button-add__container">
-                <button class="button-quantity button-add _form-elem">
-                    <!-- _button-quantity_click add class -->
-                    <span>Показать еще</span>
-                </button>
-            </div>
-        </div>   
-    </section>
-    <section class="menu-catalog">
-        <div class="container menu-catalog__container">
-            <div class="menu-catalog__control-center">
-                <div class="menu-catalog__title">
-                    <span>Меню</span>
-                </div>
-                <div class="menu-catalog__control">
-                    <button class="menu-catalog__control-button _form-elem">
-                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28ZM54.88 28C54.88 42.8454 42.8454 54.88 28 54.88C13.1546 54.88 1.12 42.8454 1.12 28C1.12 13.1546 13.1546 1.12 28 1.12C42.8454 1.12 54.88 13.1546 54.88 28ZM34.7336 19.6L43.1198 27.9932L43.1131 27.9999L43.12 28.0068L34.7338 36.4L33.2489 34.9139L39.1002 29.0576H14.28V26.9559H39.1137L33.2487 21.0861L34.7336 19.6Z" fill="white"/>
-                        </svg>     
-                    <button class="menu-catalog__control-button menu-catalog__control-button_hover _form-elem">
-                        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28ZM54.88 28C54.88 42.8454 42.8454 54.88 28 54.88C13.1546 54.88 1.12 42.8454 1.12 28C1.12 13.1546 13.1546 1.12 28 1.12C42.8454 1.12 54.88 13.1546 54.88 28ZM34.7336 19.6L43.1198 27.9932L43.1131 27.9999L43.12 28.0068L34.7338 36.4L33.2489 34.9139L39.1002 29.0576H14.28V26.9559H39.1137L33.2487 21.0861L34.7336 19.6Z" fill="white"/>
-                        </svg>    
-                    </button>
-                </div>
-            </div>
-            <div class="menu-catalog__items">
-                <div class="menu-catalog__item">
-                    <span class="menu-catalog__stock">30%</span>
-                    <div class="menu-catalog__link">
-                        <a>Акции</a> 
-                        <img src="images/fire.png"  alt="fire" width="18" height="18">   
+                <div class="menu-list__product-card">
+                    <img src="images/(6)-product-card.png" alt="Стейк из лосося с овощами" width="233" height="233"> 
+                    <span class="menu-list__title">Стейк из лосося с овощами</span>
+                    <div class="menu-list__quantity">
+                        <span>430 г</span>
                     </div>
-                    <span class="menu-catalog__stock">20%</span>
-                </div>
-                <div class="menu-catalog__item">
-                    <div class="menu-catalog__plate">
-                        <img src="images/1-plate.png" alt="Блюдо на тарелке" width="162" height="80px">
-                    </div>
-                    <span class="menu-catalog__name">Горячие блюда</span>
-                    <div class="menu-catalog__plate">
-                        <img src="images/2-plate.png" alt="Блюдо на тарелке" width="162" height="80px">
-                    </div>
-                </div>
-                <div class="menu-catalog__item">
-                    <div class="menu-catalog__plate">
-                        <img src="images/3-plate.png" alt="Блюдо на тарелке" width="162" height="80px">
-                    </div>
-                    <span class="menu-catalog__name">Супы</span>
-                    <div class="menu-catalog__plate">
-                        <img src="images/4-plate.png" alt="Блюдо на тарелке" width="162" height="80px">
-                    </div>
-                </div>
-                <div class="menu-catalog__item">
-                    <div class="menu-catalog__plate">
-                        <img src="images/5-plate.png" alt="Блюдо на тарелке" width="162" height="80px">
-                    </div>
-                    <span class="menu-catalog__name">Хинкали</span>
-                    <div class="menu-catalog__plate">
-                        <img src="images/6-plate.png" alt="Блюдо на тарелке" width="162" height="80px">
-                    </div>
-                </div>
-                <div class="menu-catalog__item">
-                    <div class="menu-catalog__plate">
-                        <img src="images/7-plate.png" alt="Блюдо на тарелке" width="162" height="80px">
-                    </div>
-                    <span class="menu-catalog__name">Холодные закуски</span>
-                    <div class="menu-catalog__plate">
-                        <img src="images/8-plate.png" alt="Блюдо на тарелке" width="162" height="80px">
-                    </div>
-                </div>
-                <div class="menu-catalog__item">
-                    <div class="menu-catalog__plate">
-                        <img src="images/9-plate.png" alt="Блюдо на тарелке" width="162" height="80px">
-                    </div>
-                    <span class="menu-catalog__name">Салаты</span>
-                    <div class="menu-catalog__plate">
-                        <img src="images/10-plate.png" alt="Блюдо на тарелке" width="162" height="80px">
+                    <span class="menu-list__description">Невероятно ароматная лепёшка с сыром сулугуни внутри и снаружи</span>
+                    <div class="menu-list__sum">
+                        <span class="menu-list__new-price">1200 ₽</span>
+                        <button class="button-basket _form-elem">
+                            <!-- _button-basket_click add class -->
+                            <svg class="button-basket_active" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
+                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
+                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
+                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black"/>
+                            </svg> 
+                            <svg class="button-basket_click" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="#FBD13E"/>
+                                <path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="#FBD13E"/>
+                                <path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="#FBD13E"/>
+                                <path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="#FBD13E"/>
+                            </svg>       
+                        </button>
                     </div>
                 </div>
             </div>
@@ -763,4 +464,4 @@
         </div>
     </footer>
 </body>
-</html>    
+</html>

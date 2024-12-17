@@ -5,7 +5,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    color: #000;
+    color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
     background: linear-gradient(to right, #0c1b33, #0c1a34, #0c1931, #0d1522, #0f1013, #0f0f11);
@@ -54,7 +54,7 @@ input[type="search"]::-webkit-search-results-decoration {
     border: 0;
 }
 
-    /* Main page of the cite. First. */
+    /* Main page of the cite Midas. First. */
 .header__container {
     padding: 52px 0 22px;
     display: flex;
@@ -83,7 +83,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 12px;
     font-weight: 500;
     line-height: 14.63px;
-    color:  #FFFFFF;
     cursor: pointer;
     text-transform: uppercase;
 }
@@ -259,7 +258,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 20px;
     font-weight: 500;
     line-height: 24.38px;
-    color: #FFFFFF;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -311,7 +309,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 20px;
     font-weight: 500;
     line-height: 24.38px;
-    color: #FFFFFF; 
     transition: color .2s ease-in;
     cursor: pointer;  
 }
@@ -355,7 +352,6 @@ input[type="search"]::-webkit-search-results-decoration {
         font-size: 12px;
         font-weight: 500;
         line-height: 14.63px;
-        color:  #FFFFFF;
         text-transform: uppercase;
     }
 
@@ -400,7 +396,6 @@ input[type="search"]::-webkit-search-results-decoration {
         font-size: 12px;
         font-weight: 500;
         line-height: 14.63px;
-        color:  #FFFFFF;
         text-transform: uppercase;
     }
 
@@ -551,7 +546,6 @@ input[type="search"]::-webkit-search-results-decoration {
         font-size: 14px;
         font-weight: 500;
         line-height: 17.07px;
-        color: #FFFFFF;
         cursor: pointer;
         transition: color .2s ease-in;
     }
@@ -588,7 +582,6 @@ input[type="search"]::-webkit-search-results-decoration {
         font-weight: 500;
         line-height: 17.07px;
         text-transform: uppercase;
-        color: #FFFFFF;
     }
 
     .menu-phone_opened .menu-phone__description {
@@ -641,7 +634,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-weight: 500;
     line-height: 30.48px;
     width: 312px;
-    color: #FFFFFF;
 }
 
 .main__dot-block {
@@ -662,9 +654,9 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 25px;
     font-weight: 500;
     line-height: 30.48px;
-    color: #FFFFFF;
-    cursor: pointer;
     transition: all .25s ease-in-out;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .main__email:hover {
@@ -675,9 +667,9 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 18px;
     font-weight: 500;
     line-height: 21.94px;
-    color: #FFFFFF;
-    cursor: pointer;
     transition: all .25s ease-in-out;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .main__offer {
@@ -717,7 +709,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 25px;
     font-weight: 500;
     line-height: 30.48px;
-    color: #FFFFFF;
 }
 
 .main__dot-block_big {
@@ -741,7 +732,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 12px;
     font-weight: 500;
     line-height: 15.85px;
-    color: #FFFFFF; 
 }
 
 .main__specification {
@@ -749,7 +739,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 15px;
     font-weight: 500;
     line-height: 21px;
-    color: #FFFFFF; 
     opacity: 80%;
 }
 
@@ -763,8 +752,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .main__price {
     font-size: 23px;
     font-weight: 800;
-    line-height: 28.04px;
-    color: #FFFFFF;  
+    line-height: 28.04px; 
 }
 
 .button-basket:hover {
@@ -935,7 +923,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 80px;
     font-weight: 500;
     line-height: 90px;
-    color: #FFFFFF;
     text-align: center;
 }
 
@@ -945,11 +932,15 @@ input[type="search"]::-webkit-search-results-decoration {
     grid-template-columns: repeat(6, 1fr);
     row-gap: 41px;
     column-gap: 21px;
+    justify-items: center;
+    align-items: center;
 }
 
 .menu-list__product-card {
     display: flex;
     flex-direction: column;
+    width: 233px;
+    height: 444px;
 }
 
 .menu-list__title {
@@ -957,7 +948,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 20px;
     font-weight: 500;
     line-height: 24.38px;
-    color: #FFFFFF;
 }
 
 .menu-list__quantity {
@@ -984,7 +974,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 13px;
     font-weight: 500;
     line-height: 18px;
-    color: #FFFFFF;
 }
 
 .menu-list__sum {
@@ -1005,19 +994,17 @@ input[type="search"]::-webkit-search-results-decoration {
     font-weight: 600;
     line-height: 21.94px;
     text-decoration-line: line-through;
-    color: #FFFFFF;
     opacity: 80%;
 }
 
 .menu-list__new-price {
-    color: #FFFFFF;
     font-size: 23px;
     font-weight: 800;
     line-height: 28.04px;
+    white-space: nowrap;
 }
 
 .menu-list__first-price {
-    color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
     line-height: 21.94px;
@@ -1079,8 +1066,16 @@ input[type="search"]::-webkit-search-results-decoration {
         padding-top: 37px;
     }
 
+    .menu-list__product-card {
+        width: 231px;
+    }
+
     .menu-list__product-card > img {
         width: 231px;
+    }
+
+    .menu-list__first-price {
+        display: none;
     }
 }
 
@@ -1095,8 +1090,21 @@ input[type="search"]::-webkit-search-results-decoration {
         padding-top: 37px;
     }
 
+    .menu-list__product-card {
+        width: 231px;
+    }
+
     .menu-list__product-card > img {
         width: 231px;
+    }
+
+    .menu-list__first-price {
+        display: none;
+    }
+
+    .button-quantity {
+        width: 120px;
+        height: 40px;
     }
 }
 
@@ -1109,6 +1117,14 @@ input[type="search"]::-webkit-search-results-decoration {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
         padding-top: 37px;
+    }
+
+    .menu-list__product-card {
+        width: 231px;
+    }
+
+    .menu-list__product-card > img {
+        width: 231px;
     }
 
     .menu-list__container > h1 {
@@ -1127,6 +1143,14 @@ input[type="search"]::-webkit-search-results-decoration {
         display: none;
     }
     
+    .menu-list__first-price {
+        display: none;
+    }
+
+    .button-quantity {
+        width: 80px;
+        height: 34px;
+    }
 }
 
 @media (max-width: 815px) {
@@ -1146,6 +1170,11 @@ input[type="search"]::-webkit-search-results-decoration {
         grid-template-rows: repeat(4,1fr);
         row-gap: 22px;
         column-gap: 20px;
+    }
+
+    .menu-list__product-card {
+        width: 155px;
+        height: 325px;
     }
 
     .menu-list__product-card > img {
@@ -1194,8 +1223,7 @@ input[type="search"]::-webkit-search-results-decoration {
     }
 
     .menu-list__first-price {
-        font-size: 16px;
-        line-height: 18px;
+        display: none;
     }
 
     .button-basket {
@@ -1254,7 +1282,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 80px;
     font-weight: 500;
     line-height: 90px;
-    color: #FFFFFF;
 }
 
 .menu-catalog__control {
@@ -1323,7 +1350,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 20px;
     font-weight: 500;
     line-height: 24.38px;
-    color: #FFFFFF;
 }
 
 .menu-catalog__stock {
@@ -1341,7 +1367,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 20px;
     font-weight: 500;
     line-height: 24.38px;
-    color: #FFFFFF;
     cursor: pointer;
 }
 
@@ -1480,13 +1505,16 @@ footer {
     gap: 50px;
 }
 
+.footer__link:hover {
+    text-decoration: none;
+}
+
 .footer__link {
     text-decoration: underline;
     cursor: pointer;
     font-size: 12px;
     font-weight: 500;
     line-height: 14.63px;
-    color: #FFFFFF;
 }
 
 .footer__contacts {
@@ -1507,13 +1535,15 @@ footer {
     font-size: 20px;
     font-weight: 500;
     line-height: 24.38px;
-    cursor: pointer;
+    text-decoration: none;
     color: #FFFFFF;
 }
 
+.footer__email:hover {
+    text-decoration: none;
+}
+
 .footer__email {
-    cursor: pointer;
-    text-decoration: underline;
     font-size: 12px;
     font-weight: 500;
     line-height: 14.63px;
@@ -1532,7 +1562,6 @@ footer {
     font-size: 12px;
     font-weight: 500;
     line-height: 14.63px;
-    color: #FFFFFF;
 }
 
 .footer__documents {
@@ -1541,12 +1570,15 @@ footer {
     align-items: center;
 }
 
+.footer__document:hover {
+    text-decoration: none;
+}
+
 .footer__document {
     font-size: 12px;
     font-weight: 500;
     line-height: 14.63px;
     cursor: pointer;
-    color: #FFFFFF;
     text-decoration: underline;
 }
 
@@ -1678,6 +1710,89 @@ footer {
         line-height: 13px;
     }
 }
+
+/* Menu item of the site Midas. Second. */
+
+.menu-item__container {
+    padding: 30px 0 190px;
+}
+
+.menu-item__name {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.menu-item__title {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+.menu-item__breadcrumbs {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-item__breadcrumb-element:hover {
+    text-decoration: underline;
+}
+
+.menu-item__breadcrumb-element {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.85px;
+}
+
+
+.menu-item__breadcrumb-element:last-child {
+    opacity: 30%;
+}
+
+.menu-item__filters {
+    margin-top: 13px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-item__filters > span {
+    color: #9EA2AA;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.85px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.menu-item__type-of-filters {
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: #0f0f11;
+}
+
+.menu-item__type-of-filters > span {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.85px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.menu-item__catalog {
+    margin-top: 29px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+
 
 
 
