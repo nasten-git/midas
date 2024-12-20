@@ -1297,17 +1297,31 @@ input[type="search"]::-webkit-search-results-decoration {
     align-items: center;
 }
 
+.menu-catalog__control-button:hover {
+    opacity: 1;
+}
+
 .menu-catalog__control-button {
     width: 56px;
     height: 56px;
     border-radius: 100%;
     border: 2px solid #C4C4C4;
     background-color: #0f1013;
-    cursor: pointer;
     opacity: 30%;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.menu-catalog__control-button:hover > span {
+    opacity: 1;
+}
+
+.menu-catalog__control-button > span {
+    width: 28.84px;
+    height: 16.8px;
+    color: #FFFFFF;
 }
 
 .menu-catalog__control-button_hover {
@@ -1797,6 +1811,7 @@ footer {
     column-gap: 20px;
     row-gap: 60px;
     align-items: center;
+    justify-content: center;
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
@@ -1839,7 +1854,7 @@ footer {
 
 @media (max-width: 815px) {
     .menu-item__container {
-        padding: 30px 0 110px;
+        padding: 30px 0 20px;
     } 
 
     .menu-item__title {
